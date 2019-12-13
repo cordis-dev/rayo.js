@@ -3,7 +3,6 @@ node_js:
   - "8.11.1"
 after_script:
   - npm run report
- 
 notifications:
-
-webhooks: https://outlook.office.com/webhook/995e35da-a7a1-4a4c-87c9-6a85ab68ed2b@2a38c7a9-19da-4de3-ae4e-1274fdd03138/TravisCI/fb69bdc67e27466ca7871984b80659db/db1939a3-c4a6-406b-a81a-aafc56a07178
+  webhooks:
+    - https://outlook.office.com/webhook/995e35da-a7a1-4a4c-87c9-6a85ab68ed2b@2a38c7a9-19da-4de3-ae4e-1274fdd03138/TravisCI/fb69bdc67e27466ca7871984b80659db/db1939a3-c4a6-406b-a81a-aafc56a07178
